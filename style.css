@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,700&family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+    font-family: roboto, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ header .menu {
+   margin-right: 50px;
+   margin-left: 60px;
+ }
+
+ header .video{
+   margin-right: 20px;
+ }
+
+ header .sino {
+   margin-right: 20px;
+ }
+ 
+
+
+
+main {
+   display: grid;
+   grid-template-columns: repeat(5,282px);
+   grid-template-rows: repeat(3,262px);
+   justify-content: center;
+   grid-template-areas: 
+   "aside section section section section"
+   "aside section section section section"
+   "aside section section section section";
+}
+
+aside {
+   grid-area: aside;
+  
+   
+}
+
+main aside div {
+   display: flex;
+   margin-bottom: 16px;
+   margin-top: 30px;
+   
+}
+
+section {
+
+   grid-area: section;
+  
+}
+
+h2 {
+   font-weight: 600;
+   font-size: 14px;
+}
+
+p {
+   color: rgba(81, 81, 81, 1);
+   font-weight: 300;
+   font-size: 10px;
+   margin: 0;
+}
+
+.list-video {
+   display: grid;
+   padding: 10px;
+   width: 282px;
+   height: 262px;
+   margin-top: 30px;
+  
+
+
+}
+
+.list-video .video {
+   width: 250px;
+   height: 140px;
+   margin-bottom: 20px;
+}
+
+
+.list-video .title {
+
+   width: 197px;
+   position: relative;
+   bottom: 60px;
+   left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
